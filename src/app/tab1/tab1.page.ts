@@ -17,4 +17,8 @@ export class Tab1Page implements OnInit {
     this.router.navigateByUrl('/tabs/tab1/details');
   }
 
+  openDetailsOutsideTab() {
+    this.router.navigateByUrl('/details');
+  }
+
 }
